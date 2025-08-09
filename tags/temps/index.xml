@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Temps on Pau Photo Argentique</title>
+    <link>http://localhost:1313/tags/temps/</link>
+    <description>Recent content in Temps on Pau Photo Argentique</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/temps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Table des corrections des temps de tirage, tables des temps pour les bandes de tests</title>
+      <link>http://localhost:1313/posts/2025-08-06-correction-des-temps-d-exposition/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-08-06-correction-des-temps-d-exposition/</guid>
+      <description>Un gros rapport technique sur les temps d&amp;#39;exposition au labo photo, exprimés à partir de l&amp;#39;échelle naturelle qu&amp;#39;est le diaph (ou EV).
+</description>
+      <content:encoded><![CDATA[<h1 id="introduction">Introduction</h1>
+<p>Au labo photo (et en photo en général), la vraie échelle d&rsquo;exposition de lumière: c&rsquo;est
+l&rsquo;échelle des diaphs ou EV (exposure value).</p>
+<p>Le temps d&rsquo;exposition n&rsquo;est qu&rsquo;une conséquence.
+Mais pour exposer un tirage au labo, c&rsquo;est bien avec le temps d&rsquo;exposition
+que l&rsquo;on travaille en premier lieu.</p>
+<p>Il faut donc une relation entre exposition exprimée dans l&rsquo;unité naturelle qu&rsquo;est l&rsquo;EV,
+et changement de temps d&rsquo;exposition obtenu en conséquence.</p>
+<h1 id="un-exemple-concret-au-labo-photo">Un exemple concret au labo photo</h1>
+<ul>
+<li>Je tire une photo à 20s</li>
+<li>Je la trouve un peu sombre.</li>
+<li>J&rsquo;aimerais retirer 1/4 de diaph à l&rsquo;exposition.</li>
+<li>Alors, combien de temps d&rsquo;exposition dois-je régler ?</li>
+</ul>
+<p>La question n&rsquo;est pas si simple car
+la relation entre les valeurs de diaphs et les valeur de temps est une relation
+en puissance de 2, donc linéaire sur une échelle logarithmique.</p>
+<h1 id="une-conséquence-directe">Une conséquence directe</h1>
+<p>Une conséquence directe forte est que lorsque l&rsquo;on réalise une bande de test pour
+déterminer le temps d&rsquo;exposition optimal d&rsquo;un tirage:
+il est difficile de construire une bande de test graduée linéairement sur l&rsquo;échelle des diaphrames.
+Or il s&rsquo;agit là bien de la graduation naturelle pour des bandes de test;
+mais malheureusement le bouton que nous tireurs on fait varier: ce sont les temps d&rsquo;exposition !</p>
+<p>Pourquoi cette difficulté ? Car obtenir une graduation progressive linéaire sur l&rsquo;échelle des diaphs
+va correspondre pour les bandes de test à des temps d&rsquo;exposition distribués logarithmiquement (donc non linéairement).</p>
+<p>Ajoutez à cela la construction progressive de la bande de tests, par cumuls successifs des temps d&rsquo;exposition:
+on se retrouve à devoir identifier des écarts de temps pour des temps d&rsquo;exposition distribués non linéairement.
+C&rsquo;est le bordel !</p>
+<h1 id="étude-mathématique">Étude mathématique</h1>
+<p>Mais lorsque l&rsquo;on plonge le problème dans un cadre mathématique clair, les difficultées
+sont écartées et &hellip; on calcule !</p>
+<p>Le rapport PDF ci-dessous reprend tous les détails et fournis les abaques des temps.</p>
+<p><strong>Il y a deux parties:</strong></p>
+<ol>
+<li>La première concerne la correction des temps d&rsquo;exposition lors du tirage.</li>
+<li>La deuxième concerne le calcul des temps pour des bandes de tests distribuées uniformement en terme d&rsquo;exposition. (Donc non uniformément en termes de temps d&rsquo;exposition)</li>
+</ol>
+<p>En anglais, désolé &hellip;</p>
+
+
+<object
+    data="/files/00_o_ExposureCorrections.pdf#view=Fit" width="100%" height="1123px"type="application/pdf"
+>
+    <p>Unable to display PDF file. <a href="/files/00_o_ExposureCorrections.pdf#view=Fit">Download</a> instead.</p>
+</object>
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
